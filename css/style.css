@@ -1,0 +1,457 @@
+/*===================================
+    Default Theme
+   ----------------------------------
+    Fonts: Raleway & open sans
+   ----------------------------------
+    colors:
+        Moon Yellow : #f4c613
+        grey : #212226
+        white smoke : #f4f4f4
+        white : #fff
+        black : #000
+      
+===================================*/
+
+/*===================================
+            Html , Body
+===================================*/
+
+html, body{
+    height: 100%;
+    
+}
+
+body{
+    color: #212226;
+}
+
+h1,h2,h3,h4,h5,h6, li{
+    font-family: 'Assistant', sans-serif;
+}
+
+p{
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+section{
+    background: #fff;
+    overflow: hidden;
+}
+
+
+/*===================================
+            preloader
+===================================*/
+#preloader{
+    background-color: white;
+    
+    /*בשיטה הזאת אנחנו מכסים את כל הדף*/
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    /*ככה הוא יהיה מעל כולם בהיררכיה*/
+    z-index: 9999;
+}
+
+#status{
+    background-image: url(../img/preloader/preloader.gif);
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -35px;
+    margin-left: -35px;
+}
+
+/*Menu section*/
+.menu-btn{
+    margin: 30px 10px;
+    display: block;
+    width: 80%;
+    text-align: center;
+    position:relative;
+    left: 7%;
+    border: none;
+    padding: 20px 20px;
+   /* -webkit-box-shadow: 0 0 10px rgba(0,0,0,.2);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);*/
+    
+}
+.btn-primary:hover{
+    color: black;
+}
+a.menu-btn {
+    color: black;
+    font-weight:500;
+    font-size: 24px;
+    font-family: 'Assistant', sans-serif;
+    text-decoration: none;
+}
+a.active, a.hover, button.active{
+    color: black;
+}
+
+a:hover, a:focus {
+    color: black;
+}
+
+#menuSection h1{
+    color: white;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+#menuSection h2{
+    color: rgb(147,255,216);
+    margin: 0;
+}
+
+#headingOpenScreen{
+    width: 100%;
+    background-color: rgb(39,39,39);
+    height: 120px;
+    position: relative;
+    right: 0;
+    top:0;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+#subject1{
+    background-color: rgb(255,166,158);
+}
+
+#subject2{
+    background-color: rgb(96, 230 ,182);
+}
+
+#subject3{
+    background-color: rgb(242,143,60);
+}
+
+#subject4{
+    background-color: rgb(89,219,230);
+}
+
+.heading h1{
+    font-weight: 600;
+    margin-top: 32px;
+    font-size: 42px;
+}
+
+.next-btn{
+    position: absolute;
+    left: 10%;
+    color: black;
+    bottom: 35px;
+    font-size: 50px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    margin-left: -16px;
+    z-index: 1;
+    
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+}
+.next-btn-scroll{
+    position: absolute;
+    left: 10%;
+   
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    margin-left: -16px;
+    z-index: 1;
+  
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+}
+
+.back-btn{
+    position: absolute;
+    right: 10%;
+    color: black;
+    bottom: 35px;
+    font-size: 50px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    margin-right: -16px;
+    z-index: 1;
+ 
+    animation-duration: 1.5s;
+    animation-delay: 3s;
+}
+
+.back-btn0{
+    position: absolute;
+    right: 10%;
+    color: black;
+    bottom: 35px;
+    font-size: 50px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    margin-right: -16px;
+    z-index: 1;
+   
+    animation-duration: 1.5s;
+    animation-delay: 3s;
+}
+
+.back-btn0-scroll{
+    position: absolute;
+    right: 10%;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    margin-right: -16px;
+    z-index: 1;
+    animation-duration: 1.5s;
+    animation-delay: 3s;
+}
+
+.home-btn{
+  position: absolute;
+    left: 10%;
+    color: black;
+    top: 20px;
+    font-size: 30px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    margin-left: -16px;
+    z-index: 1;  
+    display: block;
+}
+
+.content p{
+    padding: 20px 30px 0px 30px;
+    font-size: 26px;
+    line-height: 40px;
+}
+
+.content p span{
+    font-weight: bold;
+    
+}
+
+.icon{
+    font-size: 50px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#index1 div.icon{
+   
+   background-color: rgb(255,166,158);
+}
+
+.index2 div.icon{
+   
+   background-color: rgb(96, 230 ,182);
+}
+
+.index3 div.icon{
+   
+   background-color: rgb(242,143,60);
+}
+
+.index4 div.icon{
+   
+   background-color: rgb(89,219,230);
+}
+
+.index5 div.icon{
+   
+   background-color: rgb(173,152,250);
+}
+
+
+#index1 h1
+{
+    color: rgb(255,166,158);
+}
+
+.index2 h1
+{
+    color: rgb(96, 230 ,182);
+}
+
+.index3 h1
+{
+    color: rgb(242,143,60);
+}
+
+.index4 h1
+{
+    color: rgb(89,219,230);
+}
+
+.index5 h1
+{
+    color: rgb(173,152,250);
+}
+
+div.handCursor i{
+    color: black;
+    font-size:45px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.term{
+   /* -webkit-box-shadow: 0 0 10px rgba(0,0,0,.2);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);*/
+    margin: 0 30px;
+    background-color:#454545;
+    border-radius: 10px;
+}
+
+p.term{
+    margin-top: 20px;
+    padding: 20px 10px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.hiddenNextBtn{
+    animation-duration: 1.5s;
+    animation-delay: 3s;
+}
+
+li{
+    padding: 5px 10px;
+    font-size: 26px;
+    
+}
+
+p.small-margin,
+.index4 p{
+    padding: 0px 30px 30px;
+}
+
+img{
+    margin: 15px 0px;
+    width: 20%;
+    padding-top: 40px;
+}
+
+
+
+.section8 p{
+    font-size: 22px;
+}
+
+p.option{
+    /*-webkit-box-shadow: 0 0 10px rgba(0,0,0,.3);
+    box-shadow: 0 0 10px rgba(0,0,0,.3);*/
+    background-color: #454545;
+    margin: 20px;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+p.correct{
+  background-color: green;
+      font-size: 24px;
+    text-align: center;
+
+}
+
+p.wrong{
+    background-color: red;
+          font-size: 24px;
+    text-align: center;
+/*    padding: 10px 20px;*/
+  /*border: 3px solid red;*/
+    
+}
+
+p.FBcorrect, p.FBwrong{
+  font-size: 22px;  
+    line-height: 24px;
+    margin-right: 27px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.BackToMenu{
+   /* border: 2px solid  rgb(173,152,250);
+    background-color: rgb(173,152,250);*/
+     -webkit-box-shadow: 0 0 10px rgba(0,0,0,.2);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    
+    border-radius: 10px;
+    font-family: 'Assistant', sans-serif;
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    right: 33%;
+}
+
+a.BackToMenu{
+   padding: 7px;
+    margin-top: 15px; 
+    color: rgb(173,152,250);
+    font-weight: bold;
+}
+
+
+.bold{
+    font-weight: 700;
+}
+
+img.logo{
+    display: inline-block;
+    position: absolute;
+    right: 13px;
+    top: 7px;
+    padding-top: 5px;
+    z-index: 1;
+}
+
+.definition{
+    text-align: center;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 3px;
+}
+
+section.index4{
+    position: relative;
+    padding-bottom: 50px;
+    min-height: 100vh;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 13px;
+}
